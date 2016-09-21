@@ -3,25 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1D5ACF441D8C126100770294 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ACF431D8C126100770294 /* AppDelegate.swift */; };
-		1D5ACF461D8C126100770294 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ACF451D8C126100770294 /* ViewController.swift */; };
+		1D5ACF461D8C126100770294 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ACF451D8C126100770294 /* MainScreenViewController.swift */; };
 		1D5ACF491D8C126100770294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5ACF471D8C126100770294 /* Main.storyboard */; };
 		1D5ACF4B1D8C126100770294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5ACF4A1D8C126100770294 /* Assets.xcassets */; };
 		1D5ACF4E1D8C126100770294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5ACF4C1D8C126100770294 /* LaunchScreen.storyboard */; };
+		1DAC8C5A1D917B4500B709B3 /* VINDecoderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC8C591D917B4500B709B3 /* VINDecoderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D5ACF401D8C126100770294 /* VinDecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VinDecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5ACF431D8C126100770294 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1D5ACF451D8C126100770294 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D5ACF451D8C126100770294 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		1D5ACF481D8C126100770294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D5ACF4A1D8C126100770294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D5ACF4D1D8C126100770294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D5ACF4F1D8C126100770294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DAC8C591D917B4500B709B3 /* VINDecoderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VINDecoderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				1D5ACF431D8C126100770294 /* AppDelegate.swift */,
-				1D5ACF451D8C126100770294 /* ViewController.swift */,
+				1D5ACF451D8C126100770294 /* MainScreenViewController.swift */,
+				1DAC8C591D917B4500B709B3 /* VINDecoderViewController.swift */,
 				1D5ACF471D8C126100770294 /* Main.storyboard */,
 				1D5ACF4A1D8C126100770294 /* Assets.xcassets */,
 				1D5ACF4C1D8C126100770294 /* LaunchScreen.storyboard */,
@@ -102,7 +105,7 @@
 				};
 			};
 			buildConfigurationList = 1D5ACF3B1D8C126100770294 /* Build configuration list for PBXProject "VinDecoder" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D5ACF461D8C126100770294 /* ViewController.swift in Sources */,
+				1D5ACF461D8C126100770294 /* MainScreenViewController.swift in Sources */,
+				1DAC8C5A1D917B4500B709B3 /* VINDecoderViewController.swift in Sources */,
 				1D5ACF441D8C126100770294 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +304,7 @@
 				1D5ACF541D8C126100770294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="S15-Uf-yX0">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="S15-Uf-yX0">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -20,30 +20,30 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="mazda-tuning-car-mazda-mx-5-stance-sunset-1080x1920" translatesAutoresizingMaskIntoConstraints="NO" id="GKQ-vd-qBA"/>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vin Decoder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rh8-EV-ecf">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="38" id="MdX-3J-hmI"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8b-9i-T4W">
-                                <string key="text">Get all vehicle details from make, model, year and fuel type to list of options, features and standard equipment. All this information is returned by decoding the vehicle's VIN. </string>
+                                <string key="text">Get all vehicle details from make, model, year and fuel type to list of options, features and standard equipment. All this information is returned by decoding the vehicle's VIN. To search, enter the VIN code number in the form below, or use the camera to scan</string>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Limited to: Non-Commercial vehicles for sale in the USA, built after 1990" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVw-We-TUa">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="36" id="JXy-Mj-CXy"/>
+                                    <constraint firstAttribute="height" constant="36" id="uio-vv-agH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="12"/>
                                 <color key="textColor" red="0.92858311519999914" green="0.28637890562413792" blue="0.16936866810000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vin Decoder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rh8-EV-ecf">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="e1a-Qc-wCg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sx1-XT-Wl9">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="ktC-Ds-EOs"/>
+                                    <constraint firstAttribute="height" constant="30" id="7V8-xg-Yf6"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <state key="normal" title="Decode">
@@ -59,39 +59,28 @@
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To search, enter the VIN code number in the form below, or use the camera to scan" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xoE-7Y-7Kw">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="nWV-LV-C2o"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="14"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="j8b-9i-T4W" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="106-Bw-IbN"/>
-                            <constraint firstItem="GKQ-vd-qBA" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="1Fj-Am-bd0"/>
-                            <constraint firstItem="xoE-7Y-7Kw" firstAttribute="trailing" secondItem="j8b-9i-T4W" secondAttribute="trailing" id="5hi-tg-M8f"/>
-                            <constraint firstItem="j8b-9i-T4W" firstAttribute="top" secondItem="Rh8-EV-ecf" secondAttribute="bottom" constant="8" symbolic="YES" id="9oF-cz-L8k"/>
-                            <constraint firstAttribute="trailing" secondItem="GKQ-vd-qBA" secondAttribute="trailing" id="AZk-lW-haS"/>
-                            <constraint firstItem="xoE-7Y-7Kw" firstAttribute="trailing" secondItem="cx9-2X-wCZ" secondAttribute="trailing" id="Cpo-IB-s0i"/>
-                            <constraint firstItem="cx9-2X-wCZ" firstAttribute="leading" secondItem="sx1-XT-Wl9" secondAttribute="leading" id="DVg-sU-LQX"/>
-                            <constraint firstItem="xoE-7Y-7Kw" firstAttribute="leading" secondItem="j8b-9i-T4W" secondAttribute="leading" id="Djk-GJ-3aa"/>
-                            <constraint firstItem="GKQ-vd-qBA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="HNv-q0-XlH"/>
-                            <constraint firstItem="cx9-2X-wCZ" firstAttribute="trailing" secondItem="sx1-XT-Wl9" secondAttribute="trailing" id="HpU-kI-dCo"/>
-                            <constraint firstItem="Rh8-EV-ecf" firstAttribute="centerX" secondItem="j8b-9i-T4W" secondAttribute="centerX" id="NOz-nm-Mnt"/>
-                            <constraint firstItem="Rh8-EV-ecf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="NlI-HS-Lhu"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="CVw-We-TUa" secondAttribute="bottom" constant="8" symbolic="YES" id="VIu-77-ADV"/>
-                            <constraint firstItem="sx1-XT-Wl9" firstAttribute="trailing" secondItem="CVw-We-TUa" secondAttribute="trailing" id="YbQ-dQ-qIO"/>
-                            <constraint firstItem="sx1-XT-Wl9" firstAttribute="top" secondItem="cx9-2X-wCZ" secondAttribute="bottom" constant="8" symbolic="YES" id="aUQ-xS-cc3"/>
-                            <constraint firstItem="cx9-2X-wCZ" firstAttribute="top" secondItem="xoE-7Y-7Kw" secondAttribute="bottom" constant="8" symbolic="YES" id="aVz-C4-kPr"/>
-                            <constraint firstItem="sx1-XT-Wl9" firstAttribute="leading" secondItem="CVw-We-TUa" secondAttribute="leading" id="jOs-In-Qzd"/>
-                            <constraint firstItem="xoE-7Y-7Kw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="275" id="kQT-qx-YlM"/>
-                            <constraint firstItem="Rh8-EV-ecf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="83" id="mgR-z0-tuB"/>
-                            <constraint firstItem="xoE-7Y-7Kw" firstAttribute="leading" secondItem="cx9-2X-wCZ" secondAttribute="leading" id="pER-go-sk4"/>
-                            <constraint firstItem="GKQ-vd-qBA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="r9h-8v-HPF"/>
-                            <constraint firstItem="GKQ-vd-qBA" firstAttribute="centerX" secondItem="cx9-2X-wCZ" secondAttribute="centerX" id="wSF-eh-OEv"/>
+                            <constraint firstItem="GKQ-vd-qBA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="2Wc-8G-PS1"/>
+                            <constraint firstItem="Rh8-EV-ecf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="2uC-xG-SVL"/>
+                            <constraint firstItem="GKQ-vd-qBA" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="3HF-8q-CfQ"/>
+                            <constraint firstItem="Rh8-EV-ecf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="4Sh-Tj-MaZ"/>
+                            <constraint firstItem="sx1-XT-Wl9" firstAttribute="top" secondItem="cx9-2X-wCZ" secondAttribute="bottom" constant="8" symbolic="YES" id="9PO-3d-FNN"/>
+                            <constraint firstItem="Rh8-EV-ecf" firstAttribute="leading" secondItem="j8b-9i-T4W" secondAttribute="leading" id="FBd-d7-tw0"/>
+                            <constraint firstItem="cx9-2X-wCZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="299" id="FxJ-B3-QD6"/>
+                            <constraint firstAttribute="trailing" secondItem="GKQ-vd-qBA" secondAttribute="trailing" id="P1q-yE-QlT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="CVw-We-TUa" secondAttribute="bottom" constant="8" symbolic="YES" id="S09-8R-bK6"/>
+                            <constraint firstItem="cx9-2X-wCZ" firstAttribute="leading" secondItem="sx1-XT-Wl9" secondAttribute="leading" id="UwR-8e-JA1"/>
+                            <constraint firstItem="GKQ-vd-qBA" firstAttribute="centerX" secondItem="Rh8-EV-ecf" secondAttribute="centerX" id="Wxm-Z1-ecb"/>
+                            <constraint firstItem="sx1-XT-Wl9" firstAttribute="trailing" secondItem="CVw-We-TUa" secondAttribute="trailing" id="ZqR-ky-jhq"/>
+                            <constraint firstItem="j8b-9i-T4W" firstAttribute="trailing" secondItem="cx9-2X-wCZ" secondAttribute="trailing" id="acz-XG-nGj"/>
+                            <constraint firstItem="sx1-XT-Wl9" firstAttribute="leading" secondItem="CVw-We-TUa" secondAttribute="leading" id="c0s-BA-Myj"/>
+                            <constraint firstItem="cx9-2X-wCZ" firstAttribute="trailing" secondItem="sx1-XT-Wl9" secondAttribute="trailing" id="ibd-g6-Wiq"/>
+                            <constraint firstItem="j8b-9i-T4W" firstAttribute="top" secondItem="Rh8-EV-ecf" secondAttribute="bottom" constant="8" symbolic="YES" id="re7-md-SbA"/>
+                            <constraint firstItem="GKQ-vd-qBA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tBY-4i-7G2"/>
+                            <constraint firstItem="Rh8-EV-ecf" firstAttribute="trailing" secondItem="j8b-9i-T4W" secondAttribute="trailing" id="von-pq-FBA"/>
+                            <constraint firstItem="j8b-9i-T4W" firstAttribute="leading" secondItem="cx9-2X-wCZ" secondAttribute="leading" id="xTL-6e-xl4"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="q4k-4s-zMu"/>
@@ -103,7 +92,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1074.4000000000001" y="138.0809595202399"/>
+            <point key="canvasLocation" x="1074.375" y="137.32394366197184"/>
         </scene>
         <!--VIN Decoder-->
         <scene sceneID="JU0-i4-0E4">
@@ -343,17 +332,29 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="cylinderInfo" destination="3Xd-pJ-Nc6" id="paC-5u-Y83"/>
                         <outlet property="cylinderLabel" destination="ycr-Eq-uWr" id="u8O-OZ-VYd"/>
+                        <outlet property="doorsInfo" destination="PuW-gu-fol" id="eUb-IO-hxp"/>
                         <outlet property="doorsLabel" destination="LcH-oo-Zxw" id="e0u-2I-PK1"/>
+                        <outlet property="exteriorInfo" destination="lod-nv-GRx" id="eBt-bq-n8L"/>
                         <outlet property="exteriorLabel" destination="lod-nv-GRx" id="JgG-0V-acF"/>
+                        <outlet property="horsepowerInfo" destination="Ie5-xS-fhV" id="vg1-0f-8tX"/>
                         <outlet property="horsepowerLabel" destination="dTi-5T-a0R" id="6xB-t5-PWJ"/>
+                        <outlet property="interiorInfo" destination="Pyc-JM-E0j" id="gvB-AE-EeW"/>
                         <outlet property="interiorLabel" destination="Pyc-JM-E0j" id="7bY-rv-M0e"/>
+                        <outlet property="modelInfo" destination="yTM-aq-pun" id="95F-Qi-kl0"/>
                         <outlet property="modelLabel" destination="IlH-ro-iu2" id="GPS-ih-jeE"/>
+                        <outlet property="nameInfo" destination="3sa-bc-LXq" id="kMf-Vq-3Yp"/>
                         <outlet property="nameLabel" destination="GLd-D0-UbS" id="izy-eT-bzh"/>
+                        <outlet property="sizeInfo" destination="sIo-GV-TU2" id="UVG-zh-aL7"/>
                         <outlet property="sizeLabel" destination="1Cq-T7-jof" id="IC9-EE-YQ1"/>
                         <outlet property="transmission" destination="79K-1w-WJm" id="69Q-Mi-Po0"/>
+                        <outlet property="transmissionInfo" destination="MVY-Vd-ixY" id="aWW-tQ-Mqe"/>
+                        <outlet property="typeInfo" destination="kuE-uK-NCg" id="m9k-CA-9fw"/>
                         <outlet property="typeLabel" destination="Fyt-7t-be0" id="3iQ-0x-WDf"/>
+                        <outlet property="wheelsInfo" destination="sSA-wF-aBG" id="prJ-np-pGc"/>
                         <outlet property="wheelsLabel" destination="iDB-KH-6Rv" id="xME-ur-8PH"/>
+                        <outlet property="yearInfo" destination="DwW-fM-GLF" id="tuq-Ur-6o1"/>
                         <outlet property="yearLabel" destination="31v-E9-nHR" id="cF8-zl-aXE"/>
                     </connections>
                 </viewController>

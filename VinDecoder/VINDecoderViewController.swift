@@ -30,7 +30,7 @@ class VINDecoderViewController: UIViewController {
     @IBOutlet weak var cylinderInfo: UILabel!
     @IBOutlet weak var sizeInfo: UILabel!
     @IBOutlet weak var horsepowerInfo: UILabel!
-    @IBOutlet var typeInfo: UIView!
+    @IBOutlet weak var typeInfo: UILabel!
     @IBOutlet weak var transmissionInfo: UILabel!
     @IBOutlet weak var wheelsInfo: UILabel!
     @IBOutlet weak var doorsInfo: UILabel!
@@ -38,14 +38,12 @@ class VINDecoderViewController: UIViewController {
     @IBOutlet weak var interiorInfo: UILabel!
     @IBOutlet weak var exteriorInfo: UILabel!
     
+    var record: [String:String] = [:]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Swipe Back to Customer
-        let swipeLeft = UISwipeGestureRecognizer(target: self, action: Selector(("respond:")))
-        swipeLeft.direction = .left
-        view.addGestureRecognizer(swipeLeft)
-        
+        nameInfo.text = record["vin"]
     }
 
     override func didReceiveMemoryWarning() {
